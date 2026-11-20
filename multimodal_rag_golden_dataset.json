@@ -1,0 +1,228 @@
+[
+  {
+    "id": "Q01",
+    "category": "metric_lookup",
+    "question": "What was NovaCore's FY2026 revenue?",
+    "ground_truth": "USD 132.0 million ($132.0M).",
+    "expected_pages": [
+      1,
+      2,
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q02",
+    "category": "metric_lookup",
+    "question": "What was NovaCore's revenue in FY2025?",
+    "ground_truth": "USD 97.5 million ($97.5M).",
+    "expected_pages": [
+      2,
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q03",
+    "category": "multi_hop_comparison",
+    "question": "By what percentage did revenue change from FY2025 to FY2026?",
+    "ground_truth": "Revenue increased by 35.4% (from $97.5M to $132.0M).",
+    "expected_pages": [
+      2,
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q04",
+    "category": "metric_lookup",
+    "question": "What was the FY2026 operating margin and operating income?",
+    "ground_truth": "FY2026 operating margin was 18.4% and operating income was $24.3M.",
+    "expected_pages": [
+      1,
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q05",
+    "category": "metric_lookup",
+    "question": "How much was invested in R&D in FY2026 compared to FY2025?",
+    "ground_truth": "R&D investment was $17.9M in FY2026, up 47.9% from $12.1M in FY2025.",
+    "expected_pages": [
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q06",
+    "category": "chart_or_visual",
+    "question": "According to the Quarterly Revenue Trend chart, which quarter was the peak?",
+    "ground_truth": "Q4 2026 was the peak quarter (just under USD 38 million).",
+    "expected_pages": [
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q07",
+    "category": "multi_hop_comparison",
+    "question": "Combine the financial table and quarterly graph: what was FY2026 revenue, and which quarter was the peak?",
+    "ground_truth": "FY2026 revenue was $132.0M (USD 132.0 million), and Q4 2026 was the peak quarter.",
+    "expected_pages": [
+      3
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q08",
+    "category": "chart_or_visual",
+    "question": "Which region had the highest year-over-year revenue growth, and which region had the highest CSAT?",
+    "ground_truth": "Europe had the highest YoY revenue growth at 31%, while Asia Pacific had the highest CSAT score at 4.8/5.",
+    "expected_pages": [
+      2,
+      4
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q09",
+    "category": "metric_lookup",
+    "question": "How many enterprise customers and what 2026 revenue did Europe and North America record?",
+    "ground_truth": "Europe recorded $41.2M revenue and 118 enterprise customers; North America recorded $38.6M revenue and 104 enterprise customers.",
+    "expected_pages": [
+      4
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q10",
+    "category": "chart_or_visual",
+    "question": "Which product has the highest gross margin, and what does the product image say about it?",
+    "ground_truth": "AtlasEdge X1 has the highest gross margin at 46%; the product portfolio image labels AtlasEdge X1 as an AI edge gateway with a 46% gross margin.",
+    "expected_pages": [
+      2,
+      5
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q11",
+    "category": "metric_lookup",
+    "question": "Which product had the highest shipment volume, and which had the highest average selling price?",
+    "ground_truth": "CoreSense Mini had the highest shipment volume at 31,500 units, while VisionHub Pro had the highest average selling price at $4,600.",
+    "expected_pages": [
+      5
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q12",
+    "category": "chart_or_visual",
+    "question": "According to the supply-chain diagram, where is the critical quality-control point, and what tests must each batch pass before export?",
+    "ground_truth": "The critical control point is the Quality Lab in Singapore, and every production batch must pass thermal, network, and firmware tests before export.",
+    "expected_pages": [
+      6
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q13",
+    "category": "chart_or_visual",
+    "question": "What are the facility details, 2026 utilization, and solar contribution for the Penang Smart Assembly Facility?",
+    "ground_truth": "Opened in 2024, 18,000 m2, ISO 9001 certified, 82% facility utilization in 2026, and 34% solar contribution to electricity.",
+    "expected_pages": [
+      1,
+      6,
+      8
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q14",
+    "category": "chart_or_visual",
+    "question": "What was the average support resolution time in August 2026 compared with January 2026?",
+    "ground_truth": "Average support resolution time fell from 14.2 hours in January 2026 to 8.1 hours in August 2026 (a decrease of 6.1 hours).",
+    "expected_pages": [
+      2,
+      7
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q15",
+    "category": "metric_lookup",
+    "question": "What are the response target, resolution target, and 2026 compliance for P1 - Critical support tickets?",
+    "ground_truth": "Response target: 15 min; Resolution target: 4 hours; 2026 compliance: 96.8%.",
+    "expected_pages": [
+      7
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q16",
+    "category": "chart_or_visual",
+    "question": "What percentage of the Penang facility electricity came from solar, purchased renewables, and grid electricity in 2026?",
+    "ground_truth": "Solar supplied 34%, purchased renewables 15%, and grid electricity 51%.",
+    "expected_pages": [
+      1,
+      6,
+      8
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q17",
+    "category": "metric_lookup",
+    "question": "What were the 2026 production scrap rate and Scope 1+2 emissions, and what are their 2027 targets?",
+    "ground_truth": "In 2026, production scrap rate was 2.9% (2027 target: <2.5%) and Scope 1+2 emissions were 7,420 tCO2e (2027 target: <6,600 tCO2e).",
+    "expected_pages": [
+      8
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q18",
+    "category": "metric_lookup",
+    "question": "What is NovaCore's FY2027 revenue target range and target operating margin?",
+    "ground_truth": "FY2027 revenue target is USD 158 million to USD 166 million, with a target operating margin of 19-20%.",
+    "expected_pages": [
+      9
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q19",
+    "category": "metric_lookup",
+    "question": "What is the primary mitigation for an enterprise cybersecurity incident in the risk register?",
+    "ground_truth": "Zero-trust controls, red-team tests, and incident drills.",
+    "expected_pages": [
+      9
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q20",
+    "category": "unanswerable_abstention",
+    "question": "What was NovaCore's net profit in FY2026?",
+    "ground_truth": "The report does not state FY2026 net profit; the system should abstain rather than guess.",
+    "expected_pages": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q21",
+    "category": "unanswerable_abstention",
+    "question": "How many total support tickets were closed in FY2026?",
+    "ground_truth": "The report does not state the total number of support tickets closed; the system should abstain rather than guess.",
+    "expected_pages": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q22",
+    "category": "unanswerable_abstention",
+    "question": "What is the CEO's name and compensation package?",
+    "ground_truth": "The report does not mention the CEO's name or compensation; the system should abstain rather than guess.",
+    "expected_pages": [],
+    "should_abstain": true
+  }
+]

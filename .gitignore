@@ -1,0 +1,13 @@
+cat > .gitignore << 'EOF'
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+extracted_images/
+image_summaries_cache.json
+golden_eval_*.csv
+.idea/
+.vscode/
+EOF
